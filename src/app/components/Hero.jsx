@@ -1,3 +1,5 @@
+"use client";
+
 import React, { Suspense } from "react";
 import styled from "styled-components";
 import Navbar from "./Navbar";
@@ -11,7 +13,6 @@ const Section = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-
   @media only screen and (max-width: 768px) {
     height: 200vh;
   }
@@ -152,8 +153,8 @@ const Hero = () => {
               </Sphere>
             </Suspense>
           </Canvas>
-          <Img src="./img/girl.png" />
-        </Right>  
+            <Img src="./img/girl.png" />
+        </Right>
       </Container>
     </Section>
   );
