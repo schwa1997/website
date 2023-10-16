@@ -12,10 +12,17 @@ export const Girl = () => {
     <div className="">
       <Header />
       <div className="flex place-content-center gap-20 py-24">
-        <div className="flex-2 flex flex-col gap-6 py-10">
-          <div className="text-6xl">Code, Create, Cute</div>
+        <div className="flex-3 flex flex-col gap-6 py-10">
+          <div className="text-6xl">Coding for Creating is Cute </div>
           <div className="text-3xl">
-            I am a typescript full-stack developer.
+           Hello/Ciao/你好
+          </div>
+          <div className="text-3xl">
+           I am a typescript full-stack developer. 
+           There are always a lot of things to explore in web development. 
+          </div>
+          <div className="text-3xl">
+           I hope I can help you to find the best solution. 
           </div>
           <button
             type="button"
@@ -24,7 +31,7 @@ export const Girl = () => {
             Download My Resume
           </button>
         </div>
-        <div className="relative flex-3">
+        <div className="relative flex-2">
           <Canvas>
             <Suspense fallback={null}>
               <OrbitControls enableZoom={false} />

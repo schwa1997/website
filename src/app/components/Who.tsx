@@ -7,8 +7,8 @@ import Cube from "./Cube";
 
 export const Who = () => {
   return (
-    <div className="flex place-content-center gap-20 h-screen">
-      <div className="relative flex-3">
+    <div className="flex place-content-center gap-12 h-screen">
+      <div className="relative flex-1">
         <Canvas camera={{ position: [5, 5, 5], fov: 25 }}>
           <Suspense fallback={null}>
             <ambientLight intensity={0.5} />
@@ -18,13 +18,13 @@ export const Who = () => {
           </Suspense>
         </Canvas>
       </div>
-      <div className="flex-2 flex flex-col gap-6 py-10">
-        <div className="text-6xl">Think out of the box.</div>
+      <div className="flex-1 flex place-content-center flex-col gap-6 py-10">
+        <div className="text-6xl">Think out of the box.</div> 
         <div className="text-3xl">I am a typescript full-stack developer.</div>
-        <div className="text-3xl">I am a typescript full-stack developer.</div>
-        <div className="text-3xl">I am a typescript full-stack developer.</div>
-        <div className="text-3xl">I am a typescript full-stack developer.</div>
-        <div className="text-3xl">I am a typescript full-stack developer.</div>
+        <div className="text-3xl text-slate-700">Front-end</div>
+        <div className="text-2xl">CSS/HTML/TypeScript</div>
+        <div className="text-3xl text-slate-700">Back-end</div>
+        <div className="text-2xl">TypeScript/Java</div>
         <button
           type="button"
           className="w-fit text-white text-3xl bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 font-medium rounded-lg px-5 py-2.5 text-center mr-2 mb-2"
